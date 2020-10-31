@@ -1,0 +1,59 @@
+.game_boundary {
+    position: relative;
+    background-attachment: fixed;
+    background-color: #c2c0c0 ;
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    border:2px solid blue;
+}
+
+.snake_body {
+    position: absolute;
+    width: 2%;
+    height: 2%; 
+    background-color: yellow;
+    border:1px solid red;
+}
+
+.snake_food{
+    position: absolute;
+    width: 2%;
+    height: 2%;    
+    background-color: yellowgreen;
+    
+}
+.createdby{
+    color: darkgoldenrod;
+    font-size: small;
+}
+.body{
+    color: #ffff;
+}
+
+.exit{
+    position: absolute;
+    left: 290px;
+    top: 1px;
+    width: 150px;
+    height: 309px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 1em 0 1em 0;
+  }
+
+  .score_card{
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    width: 150px;
+    height: 309px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 1em 0 1em 0;
+
+  }
+
+
